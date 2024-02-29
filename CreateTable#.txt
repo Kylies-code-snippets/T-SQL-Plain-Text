@@ -1,0 +1,5 @@
+CREATE TABLE #TableName 
+(
+	ColumnName1 DataType1,
+	ColumnName2 DataType2
+)
