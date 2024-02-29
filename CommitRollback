@@ -1,0 +1,17 @@
+BEGIN TRY
+	
+	BEGIN TRANSACTION
+
+		<SQL code that might raise an error or exception>
+
+	COMMIT
+
+END TRY
+
+BEGIN CATCH
+
+	IF @@TRANCOUNT > 0
+        	ROLLBACK
+		SELECT 'Transaction aborted'	
+
+END CATCH
