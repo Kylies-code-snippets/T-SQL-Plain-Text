@@ -1,0 +1,5 @@
+DECLARE @SQL VARCHAR(MAX)
+
+SET @SQL = 'Code'
+
+EXEC (@SQL)
