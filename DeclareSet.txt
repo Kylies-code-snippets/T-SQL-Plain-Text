@@ -1,0 +1,26 @@
+DECLARE @Variable1 AS INT
+DECLARE @Variable2 AS DECIMAL(5,2)
+DECLARE @Variable3 AS CHAR(5)
+DECLARE @Variable4 AS NCHAR(6)
+DECLARE @Variable5 AS VARCHAR(10)
+DECLARE @Variable6 AS NVARCHAR(10)
+DECLARE @Variable7 AS DATE
+DECLARE @Variable8 AS DATETIME
+
+SET @Variable1 = 1
+SET @Variable2 = 11.11 + @Variable1
+SET @Variable3 = 'Hello'
+SET @Variable4 = 'Hello©'
+SET @Variable5 = (SELECT ColumnName1 FROM TableName1 WHERE code1)
+SET @Variable6 = (SELECT ColumnName2 FROM TableName2 WHERE code2)
+SET @Variable7 = (SELECT ColumnName3 FROM FunctionName(parameter1, parameter2))
+SET @Variable8 = GETDATE()
+
+SELECT @Variable1
+SELECT @Variable2
+SELECT @Variable3
+SELECT @Variable4
+SELECT @Variable5
+SELECT @Variable6
+SELECT @Variable7
+SELECT @Variable8
