@@ -1,0 +1,23 @@
+IF ConditionCode1
+
+	BEGIN
+
+		Code1
+
+	END
+
+ELSE IF ConditionCode2
+
+	BEGIN
+
+		Code2
+
+	END
+
+ELSE 
+
+	BEGIN
+
+		Code3
+
+	END
