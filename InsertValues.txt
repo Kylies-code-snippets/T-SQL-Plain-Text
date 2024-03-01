@@ -1,0 +1,10 @@
+INSERT INTO TableName 
+(
+	ColumnName1, 
+	ColumnName2
+)
+VALUES 
+(
+	Value1, 
+	Value2
+)
