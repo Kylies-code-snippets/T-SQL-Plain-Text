@@ -1,0 +1,15 @@
+IF EXISTS (QueryCode1)
+
+	BEGIN
+
+		Code1
+
+	END
+
+ELSE 
+
+	BEGIN
+
+		Code2
+
+	END
