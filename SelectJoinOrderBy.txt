@@ -1,0 +1,6 @@
+SELECT a.ColumnName1, b.ColumnName2
+FROM TableName1 a
+JOIN TableName2 b
+ON a.ColumnName3 = b.ColumnName4
+WHERE Code
+ORDER BY a.ColumnName5
