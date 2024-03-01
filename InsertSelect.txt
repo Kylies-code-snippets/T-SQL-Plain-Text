@@ -1,0 +1,10 @@
+INSERT INTO TableName1 
+(
+	ColumnName1, 
+	ColumnName2
+)
+SELECT
+	ColumnName3, 
+	ColumnName4
+FROM    TableName2
+WHERE   Code
