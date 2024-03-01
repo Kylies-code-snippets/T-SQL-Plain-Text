@@ -1,0 +1,4 @@
+SELECT ColumnName, AggregateFunction(ColumnName)
+FROM TableName
+GROUP BY ColumnName
+HAVING AggregateFunction(ColumnName) Operator Value
