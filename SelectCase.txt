@@ -1,0 +1,2 @@
+SELECT CASE WHEN ColumnName1 = Condition THEN Value1
+            ELSE Value2 END
