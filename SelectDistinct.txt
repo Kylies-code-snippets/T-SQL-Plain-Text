@@ -1,0 +1,3 @@
+SELECT DISTINCT(ColumnName)
+FROM TableName
+WHERE Code
