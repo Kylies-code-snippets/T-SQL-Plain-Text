@@ -1,0 +1,4 @@
+SELECT a.ColumnName1, b.ColumnName2
+FROM TableName1 a
+RIGHT JOIN TableName2 b
+ON a.ColumnName3 = b.ColumnName4
