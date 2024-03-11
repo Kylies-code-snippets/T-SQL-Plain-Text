@@ -1,0 +1,11 @@
+SELECT 'Sum' as Totals,
+[Row1], [Row2], [Row3]
+FROM
+(SELECT ColumnName1, ColumnName2
+FROM TableName
+WHERE Code
+) AS sourcetable
+PIVOT
+(sum(ColumnName2)
+FOR ColumnName1 in ([Row1], [Row2], [Row3])
+) AS pivottable
