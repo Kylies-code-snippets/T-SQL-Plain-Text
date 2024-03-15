@@ -1,0 +1,7 @@
+WHILE ConditionCode
+
+	BEGIN
+
+		Code
+
+	END
