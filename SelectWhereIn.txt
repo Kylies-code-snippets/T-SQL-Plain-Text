@@ -1,0 +1,3 @@
+SELECT ColumnName1
+FROM   TableName
+WHERE  ColumnName2 in (Value1, Value2)
