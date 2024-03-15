@@ -1,0 +1,3 @@
+SELECT TOP Number ColumnName
+FROM TableName
+ORDER BY ColumnName
