@@ -1,0 +1,14 @@
+SELECT ColumnName1, Label, Value
+FROM
+	(SELECT
+		ColumnName1,
+		ColumnName2,
+		ColumnName3
+	 FROM TableName
+	 WHERE Code
+	) AS pvt
+UNPIVOT
+	(Value FOR Label IN
+		(ColumnName2,
+		 ColumnName3)
+	) AS unpvt
