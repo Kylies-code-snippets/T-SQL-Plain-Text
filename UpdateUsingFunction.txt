@@ -1,0 +1,2 @@
+UPDATE TableName
+SET ColumnName = dbo.FunctionName(parameter1, parameter2)
