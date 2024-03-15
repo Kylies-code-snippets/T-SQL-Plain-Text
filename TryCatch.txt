@@ -1,0 +1,14 @@
+BEGIN TRY
+
+	Code
+
+END TRY
+
+BEGIN CATCH
+
+SELECT 
+	'Error in procedure',
+	ERROR_NUMBER() AS ErrorNumber ,
+	ERROR_MESSAGE() AS ErrorMessage
+
+END CATCH
