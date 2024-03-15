@@ -1,0 +1,3 @@
+UPDATE TableName
+SET ColumnName1 = CASE WHEN ColumnName2 = Value1 THEN Value2
+                  ELSE Value3 END
