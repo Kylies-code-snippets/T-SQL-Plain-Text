@@ -1,0 +1,4 @@
+SELECT ColumnName
+FROM   TableName
+WHERE  ConditionCode1 OR
+       ConditionCode2
