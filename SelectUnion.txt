@@ -1,0 +1,7 @@
+SELECT ColumnName1
+FROM Tablename1
+
+UNION
+
+SELECT ColumnName2
+FROM Tablename2
