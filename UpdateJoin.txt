@@ -1,0 +1,5 @@
+UPDATE a
+SET a.ColumnName1a = b.ColumnName2a
+FROM TableName1 a
+INNER JOIN TableName2 b
+ON a.ColumnName1b = b.ColumnName2b
